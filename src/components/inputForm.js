@@ -36,10 +36,10 @@ class InputForm extends Component {
             <Segment> 
                 <Grid container columns={2} stackable >
                     <Grid.Column>
-                        <Input label={{ basic: true, content: 'kg' }} labelPosition='right' placeholder='Weight' value={weight} onChange={this.onWeightChange}/>
+                        <Input className="weight" label={{ basic: true, content: 'kg' }} labelPosition='right' placeholder='Weight' value={weight} onChange={this.onWeightChange}/>
                     </Grid.Column>
                     <Grid.Column>
-                        <Input label={{ basic: true, content: 'cm' }} labelPosition='right' placeholder='Height' value={height} onChange={this.onHeightChange}/>
+                        <Input className="height" label={{ basic: true, content: 'cm' }} labelPosition='right' placeholder='Height' value={height} onChange={this.onHeightChange}/>
                     </Grid.Column>
                 </Grid>
             </Segment>
