@@ -1,7 +1,6 @@
 {
   "name": "bmicalc3",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
